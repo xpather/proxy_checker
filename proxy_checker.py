@@ -59,7 +59,7 @@ if __name__ == '__main__':
         thread.join()
     
     print("PROXYS WORKS: ",len(proxys_work))
-    with open(dir_path+"proxys_work.txt","w") as f:
+    with open(dir_path+"\\proxys_work.txt","w") as f:
         for p in proxys_work:
             f.write(p+"\n")
 
